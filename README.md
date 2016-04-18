@@ -24,7 +24,7 @@ final case class UseID(value: String) extends AnyVal
 [error] UserSpec$$anonfun$1$$anonfun$apply$1.apply(spec.scala:16)
 ```
 
-To see this, `sbt test`.
+To see this, `sbt run`.
 
 If you remove `extends AnyVal`, there is no error
 
